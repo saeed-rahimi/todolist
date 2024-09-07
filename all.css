@@ -1,0 +1,191 @@
+    *,
+     ::after,
+     ::before {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    li,
+    ol,
+    ul {
+        list-style-type: none;
+    }
+    
+    body {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+    .header {
+        background-color: rgb(87, 87, 224);
+        text-align: center;
+        width: 100%;
+        height: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .container {
+        width: 50%;
+        height: 50%;
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+    
+    .container input {
+        width: 500px;
+        font-size: 30px;
+        border-radius: 16px;
+        -webkit-border-radius: 16px;
+        -moz-border-radius: 16px;
+        -ms-border-radius: 16px;
+        -o-border-radius: 16px;
+        padding: 6px;
+        border: none;
+    }
+    
+    .container input:focus {
+        border: 3px solid red;
+    }
+    
+    .container button {
+        width: 80px;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        outline: 0;
+        border: none;
+        cursor: pointer;
+    }
+    
+    .add span {
+        transition: transform 0.5s ease;
+        -webkit-transition: transform 0.5s ease;
+        -moz-transition: transform 0.5s ease;
+        -ms-transition: transform 0.5s ease;
+        -o-transition: transform 0.5s ease;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+    }
+    
+    .add:hover span {
+        transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        background-color: aqua;
+    }
+    
+    .headtitle {
+        display: flex;
+        justify-content: center;
+        padding: 30px;
+        background-color: rgba(114, 40, 184, 0.541);
+    }
+    
+    .main {
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 16px;
+        -webkit-border-radius: 16px;
+        -moz-border-radius: 16px;
+        -ms-border-radius: 16px;
+        -o-border-radius: 16px;
+        padding: 10px;
+        background-color: rgb(142, 142, 204);
+        width: 70vw;
+        height: 100%;
+        margin: auto;
+        margin-top: 10px;
+    }
+    
+    .head2 {
+        padding: 5px;
+        color: rgb(12, 45, 192);
+    }
+    
+    .ul {
+        width: 100%;
+        height: 100%;
+        border-radius: 16px;
+        -webkit-border-radius: 16px;
+        -moz-border-radius: 16px;
+        -ms-border-radius: 16px;
+        -o-border-radius: 16px;
+    }
+    
+    .ul .first {
+        display: flex;
+        justify-content: space-between;
+        cursor: pointer;
+        border-radius: 16px;
+        background-color: rgba(121, 161, 8, 0.418);
+        color: black;
+        margin-top: 20px;
+    }
+    
+    .ul .first.completed {
+        text-decoration: line-through;
+        background-color: #d4edda;
+        user-select: none;
+    }
+    
+    .right-ul {
+        display: flex;
+    }
+    
+    .right-ul li {
+        width: 50px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .right-ul li span {
+        align-items: center;
+        padding: 5px;
+        transition: all1s ease;
+        -webkit-transition: all1s ease;
+        -moz-transition: all1s ease;
+        -ms-transition: all1s ease;
+        -o-transition: all1s ease;
+    }
+    
+    .right-ul li span:hover {
+        background-color: chartreuse;
+        color: black;
+        border-radius: 16px;
+        -webkit-border-radius: 16px;
+        -moz-border-radius: 16px;
+        -ms-border-radius: 16px;
+        -o-border-radius: 16px;
+    }
+    
+    .right {
+        width: 30%;
+        color: #5f3e3e;
+    }
+    
+    .right ul {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .left {
+        width: 70%;
+        color: blue;
+        font-size: 20px;
+        padding: 10px;
+    }
